@@ -69,3 +69,35 @@
 // console.log(bio1.city);
 // console.log(bio2.city);
 // console.log(bio3.city);
+
+//TASK4
+// function Town(name, gender, address, education, profession) {
+//     this.name = name;
+//     this.gender = gender;
+//     this.address = address;
+//     this.education = education;
+//     this.profession = profession;
+// }
+
+// function myfun() {
+//     var personName = document.getElementById("name").value;
+//     var address = document.getElementById("address").value;
+//     var education = document.getElementById("education").value;
+//     var profession = document.getElementById("profession").value;
+
+//     if ((personName.length && address.length && education.length && profession.length) == 0) {
+//         console.log("Please put correct data");
+//     } else {
+//         var checkGender1 = document.getElementById("male");
+//         var checkGender2 = document.getElementById("female");
+
+//         if (checkGender1.checked) {
+//             var a = "male";
+//         } else if (checkGender2.checked) {
+//             var a = "female";
+//         }
+
+//         const myfun = new Town(personName,  address, education, profession);
+//         console.log(myData);
+//     }
+// }
